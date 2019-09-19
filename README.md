@@ -7,12 +7,12 @@ The goal of the application is to provide a place for soccer teams or soccer fam
 I faced challenges starting the project. For some reason I had difficulty running code from in-class lectures so starting to include Passport and LowDB was difficult. I played around with using MongoDB but was unable to get it to work. Once I was able to figure out Passport and LowDB, the rest of the application came easier. I ended up using LowDB and the local strategy of Passport because it ended up being easier to implement. I used Bootstrap because it is one of the most popular and provided some great templates for sign-in screens. I had difficulty seeing it work as well with my other pages, so I have individual css pages for my sign-up page, home page, and edit page.
 
 Express Middleware:
-body-parser: Parses HTTP request bodies for json
-cookie-parser: Parses cookie header and populate request cookies
-morgan: formats HTTP request logs
-response-time: records the HTTP response time
-passport: local strategy authentication
-session: establishes server-based sessions
+-body-parser: Parses HTTP request bodies for json
+-cookie-parser: Parses cookie header and populate request cookies
+-morgan: formats HTTP request logs
+-response-time: records the HTTP response time
+-passport: local strategy authentication
+-session: establishes server-based sessions
 
 ## Technical Achievements
 - **Added alerts for incorrect login credentials and for when you delete an account so the user understands what is going on.
